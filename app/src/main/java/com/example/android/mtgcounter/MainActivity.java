@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         Player1Poison = 0;
         Player2Poison = 0;
         displayPlayer1Life(Player1Life);
-        displayPlayer2Life(Player1Life);
+        displayPlayer2Life(Player2Life);
         displayPlayer1Poison(Player1Poison);
         displayPlayer2Poison(Player2Poison);
     }
