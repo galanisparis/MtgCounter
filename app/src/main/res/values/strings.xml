@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Mtg Counter</string>
+    <string name="player2Life">Player 2 Life</string>
+    <string name="player1Life">Player 1 Life</string>
+    <string name="plusButton">+</string>
+    <string name="minusButton">-</string>
+    <string name="lifePoints">20</string>
+    <string name="poison">Poison</string>
+    <string name="poisonCounters">0</string>
+    <string name="reset">New Game</string>
 </resources>

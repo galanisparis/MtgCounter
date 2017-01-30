@@ -8,9 +8,9 @@
     <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/linearLayoutHeight"
         android:layout_weight="1"
-        android:background="#78909C"
+        android:background="@color/backgroundPlayer2"
         android:orientation="vertical"
         android:rotation="180"
         tools:context="com.example.android.mtgcounter.MainActivity">
@@ -19,8 +19,8 @@
             style="@style/PlayerTextViews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Player 2 Life"
-            android:textColor="#FF9800" />
+            android:text="@string/player2Life"
+            android:textColor="@color/life" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,33 +30,33 @@
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="removeLifeFromPlayer2"
-                android:text="-" />
+                android:text="@string/minusButton" />
 
             <TextView
                 android:id="@+id/Player2Life"
                 style="@style/ScoreTextViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
-                android:text="20"
-                android:textColor="#FF9800" />
+                android:text="@string/lifePoints"
+                android:textColor="@color/life" />
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="addLifeToPlayer2"
-                android:text="+" />
+                android:text="@string/plusButton" />
         </LinearLayout>
 
         <TextView
             style="@style/PlayerTextViews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Poison"
-            android:textColor="#CDDC39" />
+            android:text="@string/poison"
+            android:textColor="@color/poison" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,25 +66,25 @@
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="removePoisonFromPlayer2"
-                android:text="-" />
+                android:text="@string/minusButton" />
 
             <TextView
                 android:id="@+id/Player2Poison"
                 style="@style/ScoreTextViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:textColor="#CDDC39" />
+                android:text="@string/poisonCounters"
+                android:textColor="@color/poison" />
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="addPoisonToPlayer2"
-                android:text="+" />
+                android:text="@string/plusButton" />
 
         </LinearLayout>
 
@@ -92,23 +92,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginBottom="@dimen/resetMarginBottom"
+            android:layout_marginLeft="@dimen/resetMarginLeft"
+            android:layout_marginRight="@dimen/resetMarginRight"
             android:layout_weight="2"
             android:onClick="resetLife"
-            android:text="New Game" />
+            android:text="@string/reset" />
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"></View>
+        android:layout_height="@dimen/viewHeight"></View>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/linearLayoutHeight"
         android:layout_weight="1"
-        android:background="#795548"
+        android:background="@color/backgroundPlayer1"
         android:orientation="vertical"
         tools:context="com.example.android.mtgcounter.MainActivity">
 
@@ -116,8 +116,8 @@
             style="@style/PlayerTextViews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Player 1 Life"
-            android:textColor="#FF9800" />
+            android:text="@string/player1Life"
+            android:textColor="@color/life" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -127,33 +127,33 @@
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="removeLifeFromPlayer1"
-                android:text="-" />
+                android:text="@string/minusButton" />
 
             <TextView
                 android:id="@+id/Player1Life"
                 style="@style/ScoreTextViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
-                android:text="20"
-                android:textColor="#FF9800" />
+                android:text="@string/lifePoints"
+                android:textColor="@color/life" />
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="addLifeToPlayer1"
-                android:text="+" />
+                android:text="@string/plusButton" />
         </LinearLayout>
 
         <TextView
             style="@style/PlayerTextViews"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Poison"
-            android:textColor="#CDDC39" />
+            android:text="@string/poison"
+            android:textColor="@color/poison" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -163,25 +163,25 @@
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="removePoisonFromPlayer1"
-                android:text="-" />
+                android:text="@string/minusButton" />
 
             <TextView
                 android:id="@+id/Player1Poison"
                 style="@style/ScoreTextViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:textColor="#CDDC39" />
+                android:text="@string/poisonCounters"
+                android:textColor="@color/poison" />
 
             <Button
                 style="@style/ButtonViews"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/line"
                 android:layout_height="wrap_content"
                 android:onClick="addPoisonToPlayer1"
-                android:text="+" />
+                android:text="@string/plusButton" />
 
         </LinearLayout>
 
@@ -189,11 +189,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginBottom="@dimen/resetMarginBottom"
+            android:layout_marginLeft="@dimen/resetMarginLeft"
+            android:layout_marginRight="@dimen/resetMarginRight"
             android:layout_weight="2"
             android:onClick="resetLife"
-            android:text="New Game" />
+            android:text="@string/reset" />
     </LinearLayout>
 </LinearLayout>
