@@ -4,8 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="line">0dp</dimen>
     <dimen name="linearLayoutHeight">0dp</dimen>
-    <dimen name="resetMarginBottom">8dp</dimen>
-    <dimen name="resetMarginLeft">22dp</dimen>
-    <dimen name="resetMarginRight">22dp</dimen>
     <dimen name="viewHeight">1dp</dimen>
 </resources>

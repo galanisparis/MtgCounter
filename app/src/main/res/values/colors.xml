@@ -5,6 +5,4 @@
     <color name="colorAccent">#FF4081</color>
     <color name="backgroundPlayer2">#78909C</color>
     <color name="backgroundPlayer1">#795548</color>
-    <color name="life">#FF9800</color>
-    <color name="poison">#CDDC39</color>
 </resources>
