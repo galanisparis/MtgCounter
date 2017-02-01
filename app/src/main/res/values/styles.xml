@@ -8,41 +8,33 @@
         <item name="colorAccent">#EFEBE9</item>
         <item name="colorButtonNormal">#FFD180</item>
     </style>
-    <style name="PlayerTextViews" parent="@android:style/TextAppearance.Medium">
+    <style name="TextViews" parent="@android:style/TextAppearance.Medium">
     <item name="android:textSize">25sp</item>
     <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextViews.Player">
         <item name="android:textColor">#FF9800</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="PoisonTextViews" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">25sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginTop">6dp</item>
-        <item name="android:textColor">#CDDC39</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="TextViews.Poison">
+        <item name="android:textColor">#FF9800</item>
     </style>
-    <style name="LifescoreTextViews" parent="@android:style/TextAppearance.Medium">
+    <style name="scoreTextViews" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">50sp</item>
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:textColor">#FF9800</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="PoisonscoreTextViews" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">50sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_weight">1</item>
+    <style name="scoreTextViews.Life">
+    <item name="android:textColor">#FF9800</item>
+    </style>
+    <style name="scoreTextViews.Poison">
         <item name="android:textColor">#CDDC39</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="ButtonViews" parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_marginRight">30dp</item>

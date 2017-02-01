@@ -16,7 +16,7 @@
         tools:context="com.example.android.mtgcounter.MainActivity">
 
         <TextView
-            style="@style/PlayerTextViews"
+            style="@style/TextViews.Player"
             android:text="@string/player2Life" />
 
         <LinearLayout
@@ -32,7 +32,7 @@
 
             <TextView
                 android:id="@+id/Player2Life"
-                style="@style/LifescoreTextViews"
+                style="@style/scoreTextViews.Life"
                 android:text="@string/lifePoints" />
 
             <Button
@@ -42,7 +42,7 @@
         </LinearLayout>
 
         <TextView
-            style="@style/PoisonTextViews"
+            style="@style/TextViews.Poison"
             android:text="@string/poison" />
 
         <LinearLayout
@@ -58,7 +58,7 @@
 
             <TextView
                 android:id="@+id/Player2Poison"
-                style="@style/PoisonscoreTextViews"
+                style="@style/scoreTextViews.Poison"
                 android:text="@string/poisonCounters" />
 
             <Button
@@ -87,7 +87,7 @@
         tools:context="com.example.android.mtgcounter.MainActivity">
 
         <TextView
-            style="@style/PlayerTextViews"
+            style="@style/TextViews.Player"
             android:text="@string/player1Life" />
 
         <LinearLayout
@@ -103,7 +103,7 @@
 
             <TextView
                 android:id="@+id/Player1Life"
-                style="@style/LifescoreTextViews"
+                style="@style/scoreTextViews.Life"
                 android:text="@string/lifePoints" />
 
             <Button
@@ -113,7 +113,7 @@
         </LinearLayout>
 
         <TextView
-            style="@style/PoisonTextViews"
+            style="@style/TextViews.Poison"
             android:text="@string/poison" />
 
         <LinearLayout
@@ -129,7 +129,7 @@
 
             <TextView
                 android:id="@+id/Player1Poison"
-                style="@style/PoisonscoreTextViews"
+                style="@style/scoreTextViews.Poison"
                 android:text="@string/poisonCounters" />
 
             <Button
